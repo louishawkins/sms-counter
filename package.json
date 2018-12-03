@@ -2,7 +2,7 @@
   "name": "sms-counter",
   "version": "1.0.0",
   "description": "Character counter for SMS messages.",
-  "main": "sms_counter.js",
+  "main": "./index.js",
   "directories": {
     "example": "examples"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/danxexe/sms-counter.git"
+    "url": "git+ssh://git@github.com/louishawkins/sms-counter.git"
   },
   "keywords": [
     "sms",
@@ -20,7 +20,7 @@
   "author": "Danilo R. Gonçalves",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danxexe/sms-counter/issues"
+    "url": "https://github.com/louishawkins/sms-counter/issues"
   },
-  "homepage": "https://github.com/danxexe/sms-counter#readme"
+  "homepage": "https://github.com/louishawkins/sms-counter#readme"
 }
