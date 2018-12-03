@@ -8,7 +8,9 @@ Usage
 ----------
 
 ```javascript
-SmsCounter.count('content of the SMS')
+const smsCounter = require('sms-counter');
+
+smsCounter.count('The message to be counted...');
 ```
 
 This will return the following object:
@@ -16,33 +18,11 @@ This will return the following object:
 ```javascript
 {
 	encoding: "GSM_7BIT",
-	length: 18,
+	length: 28,
 	messages: 1,
 	per_message: 160,
-	remaining: 142
+	remaining: 132
 }
-```
-
-jQuery Plugin
-----------
-
-Given the following markup:
-
-```html
-<textarea name="message" id="message"></textarea>
-<ul id="sms-counter">
-	<li>Encoding: <span class="encoding"></span></li>
-	<li>Length: <span class="length"></span></li>
-	<li>Messages: <span class="messages"></span></li>
-	<li>Per Message: <span class="per_message"></span></li>
-	<li>Remaining: <span class="remaining"></span></li>
-</ul>
-```
-
-You can use the `countSms` jQuery extension to update the count on keyup:
-
-```javascript
-$('#message').countSms('#sms-counter')
 ```
 
 
